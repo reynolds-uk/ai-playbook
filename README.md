@@ -4,6 +4,8 @@ Working tools for the future of work: where to point AI, how to prove it works, 
 
 By David Reynolds. The reasoning behind every tool is written up at [ai.valuecreator.io](https://ai.valuecreator.io). This repository is the part you can pick up and use.
 
+I'm optimistic about AI. These tools are how I'd get the value out of it without losing the judgement a business runs on.
+
 ## Two ways in
 
 **If you lead a business.** Start with [the leader check](leader-check.md): nine plain questions, five minutes, nothing to look up. There's a web version at [ai.valuecreator.io/where-you-are](https://ai.valuecreator.io/where-you-are). Every tool folder opens with a one-page README in plain English, so you can see what each one is for without reading the working files.
@@ -62,4 +64,4 @@ These are early. If one doesn't do what you expected, open an issue and tell me.
 
 ## Feedback
 
-Open an issue, or find me on [LinkedIn](https://www.linkedin.com/in/davidreynolds/). If you've used a tool and changed it to fit your business, I'd like to hear what you changed.
+If you've used a tool, [tell me how it went](../../issues/new?template=i-used-a-tool.md): what you changed to make it fit, and what didn't work. A sentence each is plenty. Or find me on [LinkedIn](https://www.linkedin.com/in/davidreynolds/).
