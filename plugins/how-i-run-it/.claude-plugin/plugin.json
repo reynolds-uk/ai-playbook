@@ -1,0 +1,11 @@
+{
+  "name": "how-i-run-it",
+  "description": "Five exercises from How I run it (ai.valuecreator.io): where the time goes, the curriculum grid, the agent register, a gate review and the self-check.",
+  "version": "1.0.0",
+  "author": {
+    "name": "David Reynolds"
+  },
+  "homepage": "https://ai.valuecreator.io/how-i-run-it",
+  "repository": "https://github.com/reynolds-uk/how-i-run-it",
+  "license": "CC-BY-4.0"
+}

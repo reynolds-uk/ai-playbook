@@ -1,0 +1,4 @@
+initiative,claimed_saving,source_of_estimate,banked_saving,how_it_was_banked,named_work_or_cost_line,quarter,owner
+"EXAMPLE: Drafting tool, client team","4 hrs a person a week, 20 people","Vendor pilot survey","0","Not banked: no named work has taken the hours","","",""
+"EXAMPLE: Invoice matching automated","1.5 people's worth of effort","Process timing","1 role","Role not refilled","Finance operations headcount","Q3",""
+"EXAMPLE: First review, agent drafting","30% faster per file","Measured over 6 weeks","30% more files per reviewer","Capacity taken by growth","Fixed-fee pricing change","Q3",""
