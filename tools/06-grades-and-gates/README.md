@@ -4,7 +4,7 @@ Set the criteria in writing before anything is measured against them.
 
 ## In plain terms
 
-Autonomy isn't a setting you switch on. It's a grade that a piece of software earns against criteria published in advance, and loses automatically when its results slip. There are four grades: it watches, it recommends, it prepares, it acts. A grade earned that way is a control an auditor can test. Autonomy that was assumed is a liability nobody has priced.
+Autonomy should be a grade that a piece of software earns against criteria written down in advance, and loses automatically when its results slip. There are four grades: it watches, it recommends, it prepares, it acts. A grade earned that way is a control an auditor can test. Autonomy that was simply assumed is a risk nobody has measured.
 
 ## What to ask for
 

@@ -4,9 +4,9 @@ Before anything is built. One page per initiative.
 
 ## In plain terms
 
-You don't have to boil the ocean, and you don't have to jump straight to scaling. Take one workflow through five stages, with a decision to carry on or stop between each, against criteria written down before the work starts. AI makes every stage faster. It doesn't remove a gate.
+Don't try to do everything at once, and don't jump straight to scaling. Take one workflow through five stages, with a decision to carry on or stop between each, against criteria written down before the work starts. AI makes every stage faster. It doesn't remove a gate.
 
-I've used these five stages for years and wrote them up as the [IDEAS framework](https://www.valuecreator.io/notes/ideas-framework).
+I've used these five stages for years, helped develop them, and wrote them up as the [IDEAS framework](https://www.valuecreator.io/notes/ideas-framework).
 
 ## What to ask for
 

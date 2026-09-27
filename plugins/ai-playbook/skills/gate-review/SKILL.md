@@ -15,7 +15,7 @@ You are helping someone decide whether an agent has earned its grade, using Davi
    - Recommend to Prepare: acceptance rate, plus the overrides (see step 3)
    - Prepare to Act: approval without material changes over a set period, a clean test-set run, a supervisor's signature and a way to reverse its actions
 3. Override analysis, for the gate out of Recommend: ask for the overridden cases and the reasons. If they cluster, the agent is wrong in a fixable way: fix it before promoting. If they're scattered, the people disagree with each other: that's the finding.
-4. Check the automatic demotion triggers: drift against the test set, too many exceptions, a new market or team, any change to permissions, retrieval or model. Any one of them means back to Observe.
+4. Check the automatic demotion triggers: drift against the test set, too many exceptions, a new market or team, any change to permissions or retrieval. Any one of them means back to Observe. A new model is different: it re-runs the test set, and the agent keeps its grade only if it passes.
 5. Give the verdict in one line: earned, not yet (with exactly what's missing), assumed (holds a grade the evidence doesn't support), or demote. Write `gate-review-<agent>-<date>.md` with the criteria, the evidence, the verdict and the entry to add to the register's history.
 
 ## Rules

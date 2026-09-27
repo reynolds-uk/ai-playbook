@@ -1,6 +1,6 @@
 # How I run it: an AI playbook
 
-Working tools for the future of work: where to point AI, how to prove it works, who's on the hook, and how to keep the judgement a business runs on.
+Working tools for running AI in a business: where to point AI, how to prove it works, who's on the hook, and how to keep the judgement a business runs on.
 
 By David Reynolds. The reasoning behind every tool is written up at [ai.valuecreator.io](https://ai.valuecreator.io). This repository is the part you can pick up and use.
 
@@ -39,7 +39,7 @@ There's also [the layer you own](architecture/the-layer-you-own.md): how I'd put
 
 ## Sized for you
 
-Every tool works for a team of five or a group of five thousand. Where the advice differs, the file says so under **Small team** and **Large business**. If you're under about fifty people, one person can own all of this alongside the day job.
+Every tool works for a team of five or a group of five thousand. Where the advice differs, the file says so, under **Small team** and **Large business**. If you're under about fifty people, one person can own all of this alongside the day job.
 
 ## Using it with an AI assistant
 
@@ -64,4 +64,4 @@ These are early. If one doesn't do what you expected, open an issue and tell me.
 
 ## Feedback
 
-If you've used a tool, [tell me how it went](../../issues/new?template=i-used-a-tool.md): what you changed to make it fit, and what didn't work. A sentence each is plenty. Or find me on [LinkedIn](https://www.linkedin.com/in/davidreynolds/).
+If you've used a tool, [tell me how it went](https://github.com/reynolds-uk/ai-playbook/issues/new?template=i-used-a-tool.md): what you changed to make it fit, and what didn't work. A sentence each is plenty. Or find me on [LinkedIn](https://www.linkedin.com/in/davidreynolds/).

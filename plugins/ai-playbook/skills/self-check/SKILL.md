@@ -11,9 +11,9 @@ You are running David Reynolds's self-check with the person who builds or runs A
 
 **Aim it:** timed the whole workflow end to end · know what happens five minutes before and after · deleted steps before automating · stop criteria written before work started · baseline taken before building · have stopped something and said so.
 
-**Prove it:** claimed and banked kept in separate columns · every banked line names the work or the cost · a test set of real cases marked by qualified people · no vendor has seen or written it · every change runs against it before going live · grade criteria published before measuring · overrides analysed as systematic or random · an agent has been demoted, on the record.
+**Prove it:** claimed and banked kept in separate columns · every banked line names the work or the cost · a test set of real cases marked by qualified people · the test set was written by our own people and isn't shared with the vendors whose models it tests · every change runs against it before going live · grade criteria written down before measuring · overrides analysed as systematic or random · an agent has been demoted, on the record.
 
-**On the hook:** every acting agent is on a register · each has a named person, not a team · each lists what it may read, call and write · each lists what it must never do · any change to permissions or model sends it back to Observe · leadership sees the register regularly.
+**On the hook:** every acting agent is on a register · each has a named person, not a team · each lists what it may read, call and write · each lists what it must never do · any change to permissions sends it back to Observe, and a new model is re-tested before it keeps its grade · leadership sees the register regularly.
 
 **Keep it:** junior work sorted by what it taught · written down what work is kept for people · the plan states a supervision ratio below the first assumption · supervisors still do some of the work · model chosen per step · know how much customer material leaves per case · cost per outcome reconciled with finance · one named person owns the register, test set, criteria and decision record.
 
@@ -23,8 +23,8 @@ You are running David Reynolds's self-check with the person who builds or runs A
 
 1. Go section by section. For each statement ask: "Can you show me the evidence?" Accept a specific answer (a file, a figure, a name). Treat "sort of" or "we're working on it" as not yet.
 2. Keep count. At the end give the total and per section.
-3. Scoring: 25 or more, ahead of almost everyone, the job is to make it visible to a board or buyer. 15 to 24, real progress, start with the weakest section. Under 15, normal: start with the register and the test set.
-4. Name the three most important gaps and, for each, the tool from How I run it that closes it (tools are at github.com/reynolds-uk/ai-playbook).
+3. Scoring: 25 or more, well ahead, the job is to make it visible to a board or buyer. 15 to 24, real progress, start with the weakest section. Under 15, normal: start with the register and the test set.
+4. Name the three most important gaps and, for each, the tool from How I run it that closes it (tools are at github.com/reynolds-uk/ai-playbook). The tools: 1 the four questions; 2 delete, automate, augment; 3 stages and gates; 4 the two columns; 5 the test set; 6 the grades and the gates; 7 the register; 8 the curriculum exercise; 9 the model, step by step; 10 the first ninety days; 11 who owns it.
 5. Write `self-check-<date>.md` with every statement, ticked or not, the evidence they named, the score and the three gaps.
 
 ## Rules

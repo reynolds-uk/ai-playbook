@@ -12,7 +12,7 @@ A one-page canvas for the workflow you're about to spend money on, filled in wit
 
 ## The example
 
-A customer's contract renewal in a software business. The work (pull the account, price it, draft it) takes about four days. The whole thing takes about seventy: waiting on usage figures before, and going round again on the same three clauses after. A drafting agent saves days. Removing the waiting saves weeks.
+An illustration: a customer's contract renewal in a software business. The work (pull the account, price it, draft it) takes about four days. The whole thing takes about seventy: waiting on usage figures before, and going round again on the same three clauses after. A drafting agent saves days. Removing the waiting saves weeks.
 
 The reasoning is in [Where the time actually goes](https://ai.valuecreator.io/read/where-the-time-goes).
 

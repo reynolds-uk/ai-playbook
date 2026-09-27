@@ -2,7 +2,7 @@
 
 For the person building it. Thirty statements. Tick one only if you could show the evidence to someone sceptical tomorrow: the document, the number, the name. A tick without evidence doesn't count.
 
-Count your ticks in each section. Fewer than three in a section is where to start, and the tool is linked.
+Count your ticks in each section. Fewer than half ticked in a section is where to start, and the tool is linked.
 
 ## Aim it · [tools 1 to 3](tools/)
 
@@ -18,7 +18,7 @@ Count your ticks in each section. Fewer than three in a section is where to star
 - [ ] We keep claimed and banked savings in separate columns. *Evidence: the two columns.*
 - [ ] Every banked line names the work that took the freed time, or the cost that left. *Evidence: the named lines.*
 - [ ] We have a test set of real cases with right answers marked by qualified people. *Evidence: the set and its version.*
-- [ ] No vendor has seen or written our test set. *Evidence: where it's stored and who can see it.*
+- [ ] Our test set was written by our own people and hasn't been shared with the vendors whose models it tests. *Evidence: where it's stored and who can see it.*
 - [ ] Every change to a model, prompt or data source runs against the set before it goes live. *Evidence: the last run and its score.*
 - [ ] The criteria for each grade were published before anything was measured against them. *Evidence: the criteria document, dated before the first measurement.*
 - [ ] We've analysed overrides and know whether they're systematic or random. *Evidence: the override analysis.*
@@ -30,7 +30,7 @@ Count your ticks in each section. Fewer than three in a section is where to star
 - [ ] Each has a named person accountable, not a team. *Evidence: the supervisor column, every row filled.*
 - [ ] Each lists what it may read, call and write, and anything else is denied. *Evidence: the permissions field.*
 - [ ] Each lists what it must never do or infer. *Evidence: the limits field.*
-- [ ] Any change to permissions or model sends it back to Observe. *Evidence: a version history that shows it.*
+- [ ] Any change to permissions sends it back to Observe, and a new model is re-tested before it keeps its grade. *Evidence: a version history that shows it.*
 - [ ] Leadership sees the whole register regularly. *Evidence: the last time it was reviewed, and by whom.*
 
 ## Keep it · [tools 8 to 11](tools/)
@@ -51,6 +51,6 @@ Count your ticks in each section. Fewer than three in a section is where to star
 
 ## Scoring
 
-- **25 or more:** you're ahead of almost everyone. The job now is to make it visible to a board, a buyer or a regulator.
+- **25 or more:** you're well ahead. The job now is to make it visible to a board, a buyer or a regulator.
 - **15 to 24:** real progress, with gaps. Start with the section with the fewest ticks.
 - **Under 15:** normal. Start with the register (tool 7) and the test set (tool 5). Everything else leans on them.

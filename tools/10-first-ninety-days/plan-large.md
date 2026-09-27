@@ -25,3 +25,5 @@ Two permanent people by month six, not thirty. One champion in each business uni
 ## Published along the way
 
 The agent standard · the register · the gate criteria · the baseline · the first scorecard · the first kill list
+
+The agent standard is the ten-field register page (tool 7), agreed as the rule every agent must meet. The scorecard is the two columns (tool 4), with each agent's grade and latest test-set score beside them.

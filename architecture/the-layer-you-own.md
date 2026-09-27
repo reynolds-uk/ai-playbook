@@ -4,7 +4,7 @@ How I'd put AI into a services business. The reasoning is in [The layer you own]
 
 ## In plain terms
 
-Every vendor will sell you a task agent. If the agents come with the software, the agents aren't your advantage. What they're connected to is. Buy the models, route the work, and own a small layer underneath: one connected picture of your clients and decisions, a register of every agent, and a test set made from your own cases. The decision a client relies on stays with a named person.
+Every vendor will sell you a task agent. If every competitor can buy the same agents, the advantage is in what they're connected to. Buy the models, route the work, and own a small layer underneath: one connected picture of your clients and decisions, a register of every agent, and a test set made from your own cases. The decision a client relies on stays with a named person.
 
 ## The four layers
 

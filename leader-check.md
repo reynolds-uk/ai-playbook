@@ -14,11 +14,11 @@ Answer each with the line that's closest to true. "I don't know" is a fair answe
 | 6 | For anything AI does, is there a named person on the hook? | No, or "the team" | For some of it, informally | Yes, written down, one person per tool or agent | Yes, and they can pull it back if results slip |
 | 7 | Who will your next experienced people learn from, if AI does the junior work? | We haven't thought about it | We assume they'll pick it up | We've named the work we keep for people because it teaches | It's designed in, budgeted and checked |
 | 8 | If a competitor bought the same AI tools tomorrow, what would they still not have? | Not much | Our people and relationships | Our data and ways of working, mostly unwritten | Our own records of decisions, standards and tests |
-| 9 | How do you decide what to scale? | If a pilot looks good, we roll it out | Gut feel and enthusiasm | Results against a baseline | Criteria written before we started, including what would make us stop |
+| 9 | How do you decide what to scale? | Gut feel and enthusiasm | If a pilot looks good, we roll it out | Results against a baseline | Criteria written before we started, including what would make us stop |
 
 ## Reading your answers
 
-- Anything scored 0 or 1 is a gap. The tool to start with is in the table below.
+- Apart from question 5, anything scored 0 or 1 is a gap. The tool to start with is in the table below.
 - Question 5 isn't a score. Put it next to questions 4 and 6. If AI does a lot without a person checking (2 or 3) and your answers to 4 and 6 are low, autonomy has been assumed rather than earned. That's the one to fix first.
 
 | Question | If it's a gap, start with |
@@ -31,9 +31,9 @@ Answer each with the line that's closest to true. "I don't know" is a fair answe
 | 8 | [The layer you own](architecture/the-layer-you-own.md) |
 | 9 | [Stages and gates](tools/03-stages-and-gates/) |
 
-## Three questions to take to your team
+## Questions to take to your team
 
-Pick the three for your weakest answers.
+Pick three, for your weakest answers.
 
 1. Which piece of work, if it took half the time, would our customers actually notice, and what happens five minutes before and after it?
 2. Of what AI is said to have saved us, what can finance point to in the accounts?
