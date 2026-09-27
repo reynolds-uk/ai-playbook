@@ -1,13 +1,13 @@
 {
-  "name": "how-i-run-it",
-  "description": "David Reynolds's working tools for the future of work, as a Claude plugin.",
+  "name": "ai-playbook",
+  "description": "David Reynolds's AI playbook: working tools for whoever owns AI in a business, as a Claude plugin.",
   "owner": {
     "name": "David Reynolds"
   },
   "plugins": [
     {
-      "name": "how-i-run-it",
-      "source": "./plugins/how-i-run-it",
+      "name": "ai-playbook",
+      "source": "./plugins/ai-playbook",
       "description": "Five exercises from How I run it: where the time goes, the curriculum grid, the agent register, a gate review and the self-check."
     }
   ]

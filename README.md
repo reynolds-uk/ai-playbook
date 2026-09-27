@@ -1,10 +1,10 @@
-# How I run it
+# How I run it: an AI playbook
 
 Working tools for the future of work: where to point AI, how to prove it works, who's on the hook, and how to keep the judgement a business runs on.
 
 By David Reynolds. The reasoning behind every tool is written up at [ai.valuecreator.io](https://ai.valuecreator.io). This repository is the part you can pick up and use.
 
-I'm optimistic about AI. These tools are how I'd get the value out of it without losing the judgement a business runs on.
+I'm optimistic about AI. This is my playbook for the person who owns AI in a business, whatever the title: chief AI officer, chief digital officer, operating partner or founder. The tools are how I'd get the value out of AI without losing the judgement a business runs on.
 
 ## Two ways in
 
@@ -50,11 +50,11 @@ The templates are plain markdown, so they work in any assistant or none. Paste a
 This repository is also a Claude Code plugin marketplace. The plugin turns five of the tools into skills that interview you and write the file.
 
 ```
-claude plugin marketplace add reynolds-uk/how-i-run-it
-claude plugin install how-i-run-it@how-i-run-it
+claude plugin marketplace add reynolds-uk/ai-playbook
+claude plugin install ai-playbook@ai-playbook
 ```
 
-Then, in a session: `/how-i-run-it:where-the-time-goes`, `/how-i-run-it:curriculum-grid`, `/how-i-run-it:agent-register`, `/how-i-run-it:gate-review` or `/how-i-run-it:self-check`.
+Then, in a session: `/ai-playbook:where-the-time-goes`, `/ai-playbook:curriculum-grid`, `/ai-playbook:agent-register`, `/ai-playbook:gate-review` or `/ai-playbook:self-check`.
 
 These are early. If one doesn't do what you expected, open an issue and tell me.
 

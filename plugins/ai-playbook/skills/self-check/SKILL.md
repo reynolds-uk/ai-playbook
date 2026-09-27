@@ -24,7 +24,7 @@ You are running David Reynolds's self-check with the person who builds or runs A
 1. Go section by section. For each statement ask: "Can you show me the evidence?" Accept a specific answer (a file, a figure, a name). Treat "sort of" or "we're working on it" as not yet.
 2. Keep count. At the end give the total and per section.
 3. Scoring: 25 or more, ahead of almost everyone, the job is to make it visible to a board or buyer. 15 to 24, real progress, start with the weakest section. Under 15, normal: start with the register and the test set.
-4. Name the three most important gaps and, for each, the tool from How I run it that closes it (tools are at github.com/reynolds-uk/how-i-run-it).
+4. Name the three most important gaps and, for each, the tool from How I run it that closes it (tools are at github.com/reynolds-uk/ai-playbook).
 5. Write `self-check-<date>.md` with every statement, ticked or not, the evidence they named, the score and the three gaps.
 
 ## Rules
