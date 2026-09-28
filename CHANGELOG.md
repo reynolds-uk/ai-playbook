@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.5 · September 2026
+
+- Two new skills in the Claude plugin: `/ai-playbook:leader-check`, which runs the nine-question leader check and writes the one page, and `/ai-playbook:where-the-revenue-is`.
+- [Where the revenue is](where-the-revenue-is.md): four questions for finding revenue from AI, not only savings, and a check of how you charge. It goes with [Pay for the outcome](https://ai.valuecreator.io/read/pay-for-the-outcome).
+- The curriculum grid uses the same box names as the site and the diagram: automate it, a person decides, delete it, keep a share. It links to a worked example, [A junior's week](https://ai.valuecreator.io/read/a-juniors-week).
+- [CONTRIBUTING.md](CONTRIBUTING.md), a template for suggesting a change, and a pull request template.
+- The leader check wording matches the web version.
+
 ## v1.4 · September 2026
 
 - The leader check matches the web version again. Question 2 now asks whether AI shows up in your plan as savings, as new revenue, or both, and how you charge for it. Deleting steps before automating moves into the top answer to question 1, and into [delete, automate, augment](tools/02-delete-automate-augment/).

@@ -7,12 +7,12 @@ Score each task high or low on two things: what the output is worth, and how muc
 
 | | **Taught little** | **Taught a lot** |
 | --- | --- | --- |
-| **High value** | **Automate.** Bank the gain the same quarter. | **Draft and decide.** Software drafts, a person decides. The disagreements are the lesson. |
-| **Low value** | **Delete.** No software needed. | **Keep a share.** Automate the volume, keep a set share for people, and call it a training budget. |
+| **High value** | **Automate it.** Bank the gain the same quarter. | **A person decides.** Software drafts, a person decides. The disagreements are the lesson. |
+| **Low value** | **Delete it.** No software needed. | **Keep a share.** Automate the volume, keep a set share for people, and call it a training budget. |
 
 ## Examples, to calibrate
 
-| Team | Automate | Draft and decide | Delete | Keep a share |
+| Team | Automate it | A person decides | Delete it | Keep a share |
 | --- | --- | --- | --- | --- |
 | Finance | Matching invoices to orders | Month-end commentary | Re-formatting reports for three audiences | Checking routine accruals |
 | Support | Tagging and routing tickets | Replying to an angry customer | Copying tickets into a weekly report | Working the routine queue |
@@ -23,3 +23,5 @@ Score each task high or low on two things: what the output is worth, and how muc
 - Work we keep for people because it teaches:
 - The share we keep, and where it sits in the plan:
 - **Large business:** number of tasks in the right-hand column (this is what the intake decision is really about):
+
+For a worked example, [A junior's week](https://ai.valuecreator.io/read/a-juniors-week) sorts one first-year role through this grid, step by step.

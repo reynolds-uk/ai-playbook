@@ -1,7 +1,7 @@
 {
   "name": "ai-playbook",
-  "description": "Five exercises from How I run it (ai.valuecreator.io): where the time goes, the curriculum grid, the agent register, a gate review and the self-check.",
-  "version": "1.4.0",
+  "description": "Seven exercises from How I run it (ai.valuecreator.io): the leader check, where the time goes, where the revenue is, the curriculum grid, the agent register, a gate review and the self-check.",
+  "version": "1.5.0",
   "author": {
     "name": "David Reynolds"
   },

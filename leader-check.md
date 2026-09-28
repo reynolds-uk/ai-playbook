@@ -1,6 +1,8 @@
 # The leader check
 
-Nine plain questions about how AI is really going in your business. Five minutes, nothing to look up. There's a web version that builds your one-page result as you answer: [ai.valuecreator.io/where-you-are](https://ai.valuecreator.io/where-you-are).
+Nine plain questions about how AI is going in your business. Five minutes, nothing to look up. There's a web version that builds your one-page result, laid out to print: [ai.valuecreator.io/where-you-are](https://ai.valuecreator.io/where-you-are). In Claude, `/ai-playbook:leader-check` runs it with you and writes the page.
+
+Answer for where the business is today, not where it's heading.
 
 Answer each with the line that's closest to true. "I don't know" is a fair answer, and usually worth finding out.
 
@@ -9,7 +11,7 @@ Answer each with the line that's closest to true. "I don't know" is a fair answe
 | 1 | When you choose where to use AI, what do you start from? | What vendors suggest, or whoever is keenest | A list of ideas, ranked by time saved | The work that costs most, looked at with the people who do it | The whole job measured first, waiting included, and anything that shouldn't exist cut before we automate |
 | 2 | Where does AI show up in your plan: as savings, as new revenue, or both? | Only as savings, counted in hours or headcount | Mostly savings; new products or services are ideas, not plans | Both, though we still charge by the hour or by the unit | Both, and we charge for the outcome, so the saving stays in our margin |
 | 3 | When someone says AI saved time, can your finance director find it? | We don't track it | We have estimates of hours saved | Some of it, with a named owner and a starting point | Yes. Claimed and banked are kept apart |
-| 4 | If you asked "how do we know the AI's work is right?", what would you get back? | A shrug, or "the vendor says so" | Anecdotes and spot checks | For some of it, our own cases we test against | Our own cases, marked by our best people, run on every change |
+| 4 | If you asked "how do we know the AI's work is right?", what would you get back? | Mostly the vendor's word that it's accurate | Anecdotes and spot checks | For some of it, our own cases we test against | Our own cases, marked by our best people, run on every change |
 | 5 | What's the most AI does without a person checking first? | Nothing. It only helps people | It drafts, and people decide | It completes routine work a person approves | It acts on its own on some work |
 | 6 | For anything AI does, is there a named person on the hook? | No, or "the team" | For some of it, informally | Yes, written down, one person per tool or agent | Yes, and they can pull it back if results slip |
 | 7 | Who will your next experienced people learn from, if AI does the junior work? | We haven't thought about it | We assume they'll pick it up | We've named the work we keep for people because it teaches | It's designed in, budgeted and checked |
@@ -24,7 +26,7 @@ Answer each with the line that's closest to true. "I don't know" is a fair answe
 | Question | If it's a gap, start with |
 | --- | --- |
 | 1 | [The four questions](tools/01-four-questions/) and [delete, automate, augment](tools/02-delete-automate-augment/) |
-| 2 | [Pay for the outcome](https://ai.valuecreator.io/read/pay-for-the-outcome), on the site |
+| 2 | [Where the revenue is](where-the-revenue-is.md), and [Pay for the outcome](https://ai.valuecreator.io/read/pay-for-the-outcome) on the site |
 | 3 | [The two columns](tools/04-two-columns/) |
 | 4 | [The test set](tools/05-test-set/) |
 | 5, 6 | [The register](tools/07-register/) and [the grades and the gates](tools/06-grades-and-gates/) |

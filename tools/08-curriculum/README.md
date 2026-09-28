@@ -10,9 +10,11 @@ The junior work AI takes first is often how people learned the job. Sort it by t
 
 The grid for one team, and a written decision about which work you're keeping for people because it teaches.
 
-The reasoning is in [The bottom was the training programme](https://ai.valuecreator.io/read/people#grid).
+The reasoning is in [The bottom was the training programme](https://ai.valuecreator.io/read/people#grid). For a worked example, [A junior's week](https://ai.valuecreator.io/read/a-juniors-week) sorts one first-year role through the grid, step by step.
 
 ## Files
 
 - [`grid.md`](grid.md): the grid and what to do in each box.
 - [`tasks.csv`](tasks.csv): the task list to score.
+
+In Claude, `/ai-playbook:curriculum-grid` runs the exercise with you and writes the file.

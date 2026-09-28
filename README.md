@@ -10,7 +10,7 @@ I'm optimistic about AI. This is my playbook for the person who owns AI in a bus
 
 **If you lead a business.** Start with [the leader check](leader-check.md): nine plain questions, five minutes, nothing to look up. There's a web version at [ai.valuecreator.io/where-you-are](https://ai.valuecreator.io/where-you-are). Every tool folder opens with a one-page README in plain English, so you can see what each one is for without reading the working files.
 
-**If you're the one building it.** Start with [the self-check](self-check.md): thirty statements you can only tick if you can show the evidence. Then use the working files in each tool folder with your own team. Or install the Claude plugin below, which runs five of the exercises with you.
+**If you're the one building it.** Start with [the self-check](self-check.md): thirty statements you can only tick if you can show the evidence. Then use the working files in each tool folder with your own team. Or install the Claude plugin below, which runs seven of the exercises with you.
 
 The same material serves both readers. The leader needs to know what to ask for and why. The builder needs the files. Most of my career has been spent between those two people.
 
@@ -35,7 +35,7 @@ In the order I use them. Most take an afternoon.
 | 10 | [The first ninety days](tools/10-first-ninety-days/) | Start on a Monday | `plan-small.md`, `plan-large.md` |
 | 11 | [Who owns it](tools/11-who-owns-it/) | What the role owns and what it's measured on | `role-brief.md` |
 
-There's also [the layer you own](architecture/the-layer-you-own.md): how I'd put AI into a services business, as a reference architecture.
+There's also [the layer you own](architecture/the-layer-you-own.md): how I'd put AI into a services business, as a reference architecture. And [where the revenue is](where-the-revenue-is.md): four questions for finding revenue from AI, not only savings, and a check of how you charge. For a worked example of the curriculum exercise, see [A junior's week](https://ai.valuecreator.io/read/a-juniors-week).
 
 ## Sized for you
 
@@ -47,16 +47,30 @@ The templates are plain markdown, so they work in any assistant or none. Paste a
 
 ## The Claude plugin
 
-This repository is also a Claude Code plugin marketplace. The plugin turns five of the tools into skills that interview you and write the file.
+This repository is also a Claude Code plugin marketplace. The plugin turns seven of the exercises into skills that interview you and write the file.
 
 ```
 claude plugin marketplace add reynolds-uk/ai-playbook
 claude plugin install ai-playbook@ai-playbook
 ```
 
-Then, in a session: `/ai-playbook:where-the-time-goes`, `/ai-playbook:curriculum-grid`, `/ai-playbook:agent-register`, `/ai-playbook:gate-review` or `/ai-playbook:self-check`.
+Then, in a session:
+
+| Skill | What it does |
+| --- | --- |
+| `/ai-playbook:leader-check` | The nine-question leader check, and the one page it produces |
+| `/ai-playbook:where-the-time-goes` | One workflow end to end, and every step sorted into delete, automate or augment |
+| `/ai-playbook:where-the-revenue-is` | Four questions for finding revenue, and a check of how you charge |
+| `/ai-playbook:curriculum-grid` | Sort a team's junior work, and decide what to keep for people |
+| `/ai-playbook:agent-register` | One register page per agent, with a named person on the hook |
+| `/ai-playbook:gate-review` | Whether an agent has earned its grade |
+| `/ai-playbook:self-check` | Thirty statements that only count with evidence |
 
 These are early. If one doesn't do what you expected, open an issue and tell me.
+
+## Helping with it
+
+If you're technical and want to help, try a tool on real work and tell me what you changed, or send a change. [CONTRIBUTING.md](CONTRIBUTING.md) says how.
 
 ## Licence
 
