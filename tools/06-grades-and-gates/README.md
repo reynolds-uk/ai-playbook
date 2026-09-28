@@ -16,3 +16,5 @@ The reasoning is in [Earned autonomy](https://ai.valuecreator.io/read/control#ea
 
 - [`criteria.md`](criteria.md): the grades and your thresholds.
 - [`override-analysis.md`](override-analysis.md): the most useful check in the whole mechanism.
+
+In Claude, `/ai-playbook:gate-review` checks an agent against its written criteria with you.

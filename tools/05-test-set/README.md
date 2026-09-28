@@ -16,3 +16,5 @@ The reasoning is in [Earned autonomy](https://ai.valuecreator.io/read/control#te
 
 - [`method.md`](method.md): how to build and keep it.
 - [`case-template.md`](case-template.md): one case.
+
+In Claude, `/ai-playbook:test-set` starts a test set with you: the markers, the mix and the first real cases.

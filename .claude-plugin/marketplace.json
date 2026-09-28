@@ -8,7 +8,8 @@
     {
       "name": "ai-playbook",
       "source": "./plugins/ai-playbook",
-      "description": "Seven exercises from How I run it: the leader check, where the time goes, where the revenue is, the curriculum grid, the agent register, a gate review and the self-check."
+      "description": "Nine exercises from How I run it: the leader check, where the time goes, where the revenue is, the two columns, the test set, the register, a gate review, the curriculum grid and the self-check.",
+      "version": "2.0.0"
     }
   ]
 }

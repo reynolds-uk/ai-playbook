@@ -16,3 +16,5 @@ The reasoning is in [Earned autonomy](https://ai.valuecreator.io/read/control#re
 
 - [`register-template.md`](register-template.md): one page per agent.
 - [`register-template.csv`](register-template.csv): the whole register as a spreadsheet.
+
+In Claude, `/ai-playbook:agent-register` builds the register with you, gaps first.

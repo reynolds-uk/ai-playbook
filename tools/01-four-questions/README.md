@@ -19,3 +19,5 @@ The reasoning is in [Where the time actually goes](https://ai.valuecreator.io/re
 ## Files
 
 - [`canvas.md`](canvas.md): the working canvas.
+
+In Claude, `/ai-playbook:where-the-time-goes` maps one workflow with you and sorts every step.

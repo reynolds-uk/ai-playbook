@@ -15,3 +15,5 @@ The reasoning is in [If the AI becomes the business, what is the business?](http
 ## Files
 
 - [`claimed-banked.csv`](claimed-banked.csv): the ledger, with example rows to delete.
+
+In Claude, `/ai-playbook:two-columns` sorts your claimed savings into the two columns with you and writes the CSV.
