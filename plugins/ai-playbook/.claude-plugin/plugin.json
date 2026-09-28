@@ -1,11 +1,18 @@
 {
   "name": "ai-playbook",
-  "description": "Seven exercises from How I run it (ai.valuecreator.io): the leader check, where the time goes, where the revenue is, the curriculum grid, the agent register, a gate review and the self-check.",
-  "version": "1.5.0",
+  "description": "Nine exercises from How I run it (ai.valuecreator.io): the leader check, where the time goes, where the revenue is, the two columns, the test set, the register, a gate review, the curriculum grid and the self-check. Every skill writes into one ai-playbook/ folder and keeps a record of decisions.",
+  "version": "2.0.0",
   "author": {
     "name": "David Reynolds"
   },
   "homepage": "https://ai.valuecreator.io/how-i-run-it",
   "repository": "https://github.com/reynolds-uk/ai-playbook",
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "ai-strategy",
+    "ai-governance",
+    "leadership",
+    "operating-model",
+    "evaluation"
+  ]
 }

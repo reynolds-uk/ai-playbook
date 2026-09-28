@@ -1,11 +1,23 @@
 ---
 name: self-check
-description: "Run David Reynolds's thirty-point self-check on how AI is run in a business, where each point only counts with evidence. Use when a practitioner wants to test their own AI programme honestly."
+description: "Thirty-point self-check on how AI is run in a business, where each point only counts with evidence. Use when the person who builds or runs AI wants to test their own programme honestly, or asks to be challenged on whether they're doing it properly."
 ---
 
 # The self-check
 
-You are running David Reynolds's self-check with the person who builds or runs AI in a business. Thirty statements in five sections. A statement only counts if they can name the evidence: the document, the number, the name.
+You're running the self-check from How I run it with the person who builds or runs AI in a business. Thirty statements in five sections. A statement only counts if they can name the evidence: the document, the number, the name.
+
+## How every skill in this plugin works
+
+- **One question per turn.** Ask one thing, then wait. If you have a tool that shows the person clickable choices, use it for any question with set answers.
+- **Your draft, their judgement.** Suggest, then let them decide. Never invent a figure, a price, a customer, a person or a business name. If they don't know, write "unknown, find out".
+- **One folder.** Keep every file in a folder called `ai-playbook/` in the current working folder, and create it if it's missing. Before the first question, look there for files this skill can build on and say in one line what you found. If you can't write files, give the page in your reply instead.
+- **Name files from what they told you.** Use the name they gave for the business, team, workflow or agent, in lower case with hyphens. If they gave none, use a plain description such as `renewals`. Add the date as YYYY-MM-DD where the file name asks for it.
+- **The decision record.** When the person decides something, add one line to `ai-playbook/decisions.md`: `date · decision · who decided · on what evidence · file`. Create the file with the heading `# Decisions` if it's missing. Every decision needs a named person; if you don't have one, ask. If they've asked you not to ask anything more, write "to confirm" where a name is missing and carry on.
+- **Plain writing.** Short sentences, UK spelling, no filler. Never use the em dash character; use a colon, a comma or a full stop instead. Write for a leader who will read the file once.
+- **Credit.** End every page you write with this line (not `decisions.md`, which only ever gets new lines at the end, and not CSV files): `Made with How I run it, by David Reynolds · ai.valuecreator.io · CC BY 4.0`
+
+If `ai-playbook/` holds files from the other skills (a register, a test set, the two columns, decisions), say which statements they might support. A file only counts if it's in use: ask when it was last updated and who uses it.
 
 ## Sections and statements
 
@@ -21,11 +33,11 @@ You are running David Reynolds's self-check with the person who builds or runs A
 
 ## How to run it
 
-1. Go section by section. For each statement ask: "Can you show me the evidence?" Accept a specific answer (a file, a figure, a name). Treat "sort of" or "we're working on it" as not yet.
+1. Go section by section. Show one section's statements at a time and ask them to say, for each, what the evidence is. Accept a specific answer (a file, a figure, a name). Treat "sort of", "mostly" or "we're working on it" as not yet. (A section per turn is the one exception to one question per turn: thirty turns would be too many.)
 2. Keep count. At the end give the total and per section.
 3. Scoring: 25 or more, well ahead, the job is to make it visible to a board or buyer. 15 to 24, real progress, start with the weakest section. Under 15, normal: start with the register and the test set.
-4. Name the three most important gaps and, for each, the tool from How I run it that closes it (tools are at github.com/reynolds-uk/ai-playbook). The tools: 1 the four questions; 2 delete, automate, augment; 3 stages and gates; 4 the two columns; 5 the test set; 6 the grades and the gates; 7 the register; 8 the curriculum exercise; 9 the model, step by step; 10 the first ninety days; 11 who owns it.
-5. Write `self-check-<date>.md` with every statement, ticked or not, the evidence they named, the score and the three gaps.
+4. Name the three most important gaps and, for each, the tool from How I run it that closes it and, where there is one, the skill in this plugin: 1 the four questions (`where-the-time-goes`); 2 delete, automate, augment (`where-the-time-goes`); 3 stages and gates; 4 the two columns (`two-columns`); 5 the test set (`test-set`); 6 the grades and the gates (`gate-review`); 7 the register (`agent-register`); 8 the curriculum exercise (`curriculum-grid`); 9 the model, step by step; 10 the first ninety days; 11 who owns it. The tools are at github.com/reynolds-uk/ai-playbook.
+5. Write `ai-playbook/self-check-<date>.md` with every statement, ticked or not, the evidence they named, the score and the three gaps.
 
 ## Rules
 

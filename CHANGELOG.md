@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.0 · September 2026
+
+The playbook now runs its own playbook, and the plugin was tested end to end before release.
+
+- **A test set for the plugin.** Sixteen cases in [plugins/ai-playbook/evals](plugins/ai-playbook/evals/), each with the right outcome marked, run with `claude plugin eval` on every change. On 28 September 2026, thirteen passed every one of three runs and three passed two in three.
+- **A register for the plugin.** [REGISTER.md](plugins/ai-playbook/REGISTER.md) has one page per skill: grade, supervisor, test set, what it must never do. Every skill is at Recommend.
+- **Two new skills.** `/ai-playbook:test-set` starts a test set with your own real cases, and won't invent one. `/ai-playbook:two-columns` sorts claimed savings from what reached the accounts. The plugin now has nine skills.
+- **One folder, and a record of decisions.** Every skill writes into `ai-playbook/` and reads what's already there. The gate review adds to the register's history. Each decision goes into `ai-playbook/decisions.md` with the date, who decided and on what evidence.
+- **Fixes from testing every skill with realistic users:**
+  - One question per turn in every skill, with clickable choices where Claude offers them.
+  - The leader check labels answers A to D and never shows a score. When nothing scores well, the board sentence says there's no strong ground yet, rather than naming a strength.
+  - The register gives the gaps in five minutes, then writes full pages for the riskiest agents first.
+  - Nothing a regulation, standard, contract or client requires is put in Delete, in the curriculum grid or in where the time goes.
+  - No invented names, prices or cases; "to confirm" where a name is missing.
+  - A reminder not to paste confidential material, in every skill that takes your material.
+  - Plain writing rules, and a credit line at the foot of every page a skill writes.
+  - Descriptions tuned so plain requests find the right skill: eight of eight in testing, and nothing fires on unrelated requests.
+- **A README inside the plugin**, for listing in Anthropic's plugin directory, and a front page that says how to install in the first screen.
+- **Examples.** [examples/](examples/) has a page from each of four skills, made for fictional businesses.
+- **An issue template for a skill getting something wrong.** Every report becomes a test case.
+
 ## v1.5 · September 2026
 
 - Two new skills in the Claude plugin: `/ai-playbook:leader-check`, which runs the nine-question leader check and writes the one page, and `/ai-playbook:where-the-revenue-is`.

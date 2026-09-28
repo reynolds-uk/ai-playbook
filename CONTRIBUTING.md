@@ -23,10 +23,12 @@ What makes a change easy to accept:
 The plugin is in `plugins/ai-playbook`. Each skill is one `SKILL.md` file. If you change or add one:
 
 1. Check it still loads: `claude plugin validate .` and `claude plugin validate plugins/ai-playbook`.
-2. Install your copy and run the skill once on a real example: `claude plugin marketplace add ./` then `claude plugin install ai-playbook@ai-playbook`.
-3. Say in the pull request what you ran it on and what the file it wrote looked like.
+2. Run the test set from `plugins/ai-playbook`: `claude plugin eval . --allow-tools Write Edit --scaffold`. Every case must pass. If you change a case, say why in the pull request.
+3. If you're fixing something a skill got wrong, add a case for it first, and show it failing before your change and passing after.
+4. Install your copy and run the skill once on a real example: `claude plugin marketplace add ./` then `claude plugin install ai-playbook@ai-playbook`. Say in the pull request what you ran it on and what the file it wrote looked like.
+5. Raise `version` in `plugins/ai-playbook/.claude-plugin/plugin.json`, or people who already have the plugin won't get the change.
 
-Skills should ask one thing at a time, suggest rather than decide, and write a markdown file the person can keep.
+Skills should ask one thing at a time, suggest rather than decide, never invent a figure or a name, and write into the `ai-playbook/` folder. The block headed "How every skill in this plugin works" is the same in every skill; change it in all of them or none. Update [REGISTER.md](plugins/ai-playbook/REGISTER.md) if a skill's permissions, rules or test cases change.
 
 ## Licence
 
