@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.4 · September 2026
+
+- The leader check matches the web version again. Question 2 now asks whether AI shows up in your plan as savings, as new revenue, or both, and how you charge for it. Deleting steps before automating moves into the top answer to question 1, and into [delete, automate, augment](tools/02-delete-automate-augment/).
+- A team question on revenue, and a pointer to [Pay for the outcome](https://ai.valuecreator.io/read/pay-for-the-outcome).
+
 ## v1.3 · September 2026
 
 - A new model no longer sends an agent back to Observe. It is re-tested against the test set and keeps its grade only if it passes. A change to what an agent may touch or look up still starts it again at Observe. The register, the criteria, the gate review and the self-check all say the same thing.
