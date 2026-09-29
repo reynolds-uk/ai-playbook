@@ -1,0 +1,23 @@
+name: Release on version bump
+on:
+  push:
+    branches: [main]
+    paths: ['plugins/ai-playbook/.claude-plugin/plugin.json']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create a release if this version has none
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          v=$(jq -r .version plugins/ai-playbook/.claude-plugin/plugin.json)
+          tag="v$v"
+          if gh release view "$tag" >/dev/null 2>&1; then echo "Release $tag exists"; exit 0; fi
+          short="v${v%.*}"
+          awk -v h="## ${short} " 'index($0,h)==1{f=1;next} /^## v/{if(f)exit} f' CHANGELOG.md > notes.md
+          [ -s notes.md ] || echo "See CHANGELOG.md" > notes.md
+          gh release create "$tag" --title "$tag" --notes-file notes.md
