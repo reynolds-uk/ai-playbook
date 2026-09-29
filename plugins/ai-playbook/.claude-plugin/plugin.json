@@ -1,7 +1,7 @@
 {
   "name": "ai-playbook",
   "description": "Nine exercises from How I run it (ai.valuecreator.io): the leader check, where the time goes, where the revenue is, the two columns, the test set, the register, a gate review, the curriculum grid and the self-check. Every skill writes into one ai-playbook/ folder and keeps a record of decisions.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
     "name": "David Reynolds"
   },

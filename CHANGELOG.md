@@ -20,6 +20,7 @@ The playbook now runs its own playbook, and the plugin was tested end to end bef
 - **A README inside the plugin**, for listing in Anthropic's plugin directory, and a front page that says how to install in the first screen.
 - **Examples.** [examples/](examples/) has a page from each of four skills, made for fictional businesses.
 - **An issue template for a skill getting something wrong.** Every report becomes a test case.
+- v2.0.1: an icon for the plugin directory listing.
 
 ## v1.5 · September 2026
 
