@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.1 · October 2026
+
+- **A new skill: where each model runs.** `/ai-playbook:where-each-model-runs` takes one workflow step by step and decides which model each step uses and where it runs: rented from the lab, licensed through your cloud provider, hosted on machines you control, or run on your own hardware. Data rules come before cost. Each step gets the Friday test: could you change the model by Friday, and know by Friday whether the new one is as good? The plugin now has ten skills.
+- **Two new test cases**, `model-runs-data-rules` and `model-runs-no-invented-prices`, making eighteen. They run before the next release; the register says so.
+- **Tool 9 extended.** [The model, step by step](tools/09-model-routing/) now covers the four ways to source a model and the Friday test, and the routing sheet has columns for where each step runs.
+- **The layer you own, for any business.** [The reference architecture](architecture/the-layer-you-own.md) matches the rewritten piece: any business that runs on judgement and data, with services as one example.
+
 ## v2.0 · September 2026
 
 The playbook now runs its own playbook, and the plugin was tested end to end before release.

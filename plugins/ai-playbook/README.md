@@ -11,7 +11,7 @@ Each skill interviews you in plain English, one question at a time, and writes a
 
 You don't need the skill names. Asking "how is our AI going?" or "who is accountable for the AI acting in our name?" is enough.
 
-## The nine skills
+## The ten skills
 
 | Skill | What it does |
 | --- | --- |
@@ -23,6 +23,7 @@ You don't need the skill names. Asking "how is our AI going?" or "who is account
 | The register | One page per AI agent or tool acting for you, with a named person on the hook |
 | Gate review | Whether an agent has earned its grade, against criteria written in advance |
 | Curriculum grid | Which junior work to keep for people, because it's how they learn |
+| Where each model runs | Which model each step of a workflow uses, and whether it's rented, licensed, hosted or run in-house |
 | Self-check | Thirty statements that only count with evidence |
 
 ## What it keeps
@@ -37,7 +38,7 @@ Every skill writes into one folder, `ai-playbook/`, where you're working, and re
 
 ## Tested like the rest of the playbook
 
-The plugin has its own test set, as the playbook says every AI tool should: sixteen cases with the right outcome marked, run on every change with `claude plugin eval`. The register of the skills themselves, with their grade and last results, including what still fails, is in [REGISTER.md](https://github.com/reynolds-uk/ai-playbook/blob/main/plugins/ai-playbook/REGISTER.md).
+The plugin has its own test set, as the playbook says every AI tool should: eighteen cases with the right outcome marked, run on every change with `claude plugin eval`. The register of the skills themselves, with their grade and last results, including what still fails, is in [REGISTER.md](https://github.com/reynolds-uk/ai-playbook/blob/main/plugins/ai-playbook/REGISTER.md).
 
 ## More
 
