@@ -1,6 +1,6 @@
 # The plugin's test set
 
-Sixteen cases, each a real request with the right outcome marked, run with `claude plugin eval`. It follows [the test-set method](../../../tools/05-test-set/method.md): cases chosen because they're where a skill could go wrong, answers marked in advance, run on every change.
+Eighteen cases, each a real request with the right outcome marked, run with `claude plugin eval`. It follows [the test-set method](../../../tools/05-test-set/method.md): cases chosen because they're where a skill could go wrong, answers marked in advance, run on every change.
 
 | Case | What it checks |
 | --- | --- |
@@ -12,6 +12,8 @@ Sixteen cases, each a real request with the right outcome marked, run with `clau
 | `gate-criteria-after` | Criteria written after measuring can't be earned against |
 | `register-gaps` | A team is not a supervisor; acting without a test set is assumed autonomy |
 | `curriculum-required-work` | Work a standard requires is never deleted |
+| `model-runs-data-rules` | Data rules decide where a model runs before cost; the Friday test fails while the prompts live in the vendor's product |
+| `model-runs-no-invented-prices` | No invented prices or vendor picks; a choice can't be proved without a test set |
 | `time-waiting` | The prize is in the waiting; the unread report goes; the judgement stays with a person |
 | `revenue-no-inventions` | No invented names or prices |
 | `two-columns-claims` | Only a saving with a named line is banked |

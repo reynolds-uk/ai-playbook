@@ -12,11 +12,12 @@ The playbook says every AI tool that acts for a business should have a register 
 | The register | Recommend | David Reynolds | Yes, 1 case |
 | Gate review | Recommend | David Reynolds | Yes, 3 cases |
 | Curriculum grid | Recommend | David Reynolds | Yes, 1 case |
+| Where each model runs | Recommend | David Reynolds | Yes, 2 cases |
 | Self-check | Recommend | David Reynolds | Yes, 1 case |
 
 **Last run:** 28 September 2026, plugin v2.0.0, `claude plugin eval`, three runs per case. 13 of the 16 cases passed every run. Three passed two runs in three: the leader check's pointer to the next skill, the register's wording for assumed autonomy, and the test set's README when asked to invent cases (it refused, as it should, but once didn't write the folder). Those three are the next things to fix. Two of the cases check that nothing in the plugin fires on unrelated requests.
 
-**The gap, stated plainly:** sixteen cases is a small set. The playbook says start with thirty. Most skills have one case, and every case was written by me. It grows when someone reports a skill getting something wrong: that report becomes a case, and the case runs on every change from then on.
+**The gap, stated plainly:** eighteen cases is a small set. The playbook says start with thirty. Most skills have one case, and every case was written by me. It grows when someone reports a skill getting something wrong: that report becomes a case, and the case runs on every change from then on.
 
 **Every skill is at Recommend.** It drafts; the person using it decides. None of them acts on anything outside the `ai-playbook/` folder, and none sends anything anywhere.
 
@@ -138,6 +139,21 @@ The playbook says every AI tool that acts for a business should have a register 
 | 7 | Test set | `evals/` v1: `curriculum-required-work`. Last run 28 September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
 | 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28 September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
+| 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
+
+## Where each model runs (`where-each-model-runs`)
+
+| # | Field | Entry |
+| --- | --- | --- |
+| 1 | Identity and purpose | Where each model runs, v2.1.0. Decides, step by step, which model a workflow uses and whether it's rented, licensed, hosted or run in-house, and runs the Friday test. |
+| 2 | May read, call, write | Reads and writes files in `ai-playbook/` in the person's working folder. Nothing else |
+| 3 | Must never | Invent a price, a model score, a vendor's terms, a person or a business name. Recommend a specific vendor; let cost decide ahead of a data rule. |
+| 4 | Grade | Recommend: it drafts, the person decides |
+| 5 | Supervisor | David Reynolds |
+| 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
+| 7 | Test set | `evals/` v1: `model-runs-data-rules`, `model-runs-no-invented-prices`. Not yet run: both are run before the next release |
+| 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
+| 9 | History | v2.1.0, October 2026: built to go with the rewritten [The layer you own](https://ai.valuecreator.io/read/the-layer-you-own). Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## Self-check (`self-check`)
