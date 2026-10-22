@@ -9,7 +9,7 @@
       "name": "ai-playbook",
       "source": "./plugins/ai-playbook",
       "description": "Ten exercises from How I run it: the leader check, where the time goes, where the revenue is, the two columns, the test set, the register, a gate review, the curriculum grid, where each model runs and the self-check.",
-      "version": "2.1.0"
+      "version": "2.1.1"
     }
   ]
 }

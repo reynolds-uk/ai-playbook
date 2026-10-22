@@ -42,4 +42,4 @@ The plugin has its own test set, as the playbook says every AI tool should: eigh
 
 ## More
 
-The full playbook, eleven tools as plain markdown templates, is at [github.com/reynolds-uk/ai-playbook](https://github.com/reynolds-uk/ai-playbook). Free to use under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). If a skill doesn't do what you expected, [tell me](https://github.com/reynolds-uk/ai-playbook/issues/new?template=i-used-a-tool.md).
+The full playbook, twelve tools as plain markdown templates, is at [github.com/reynolds-uk/ai-playbook](https://github.com/reynolds-uk/ai-playbook). Free to use under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). If a skill doesn't do what you expected, [tell me](https://github.com/reynolds-uk/ai-playbook/issues/new?template=i-used-a-tool.md).

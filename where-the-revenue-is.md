@@ -1,12 +1,14 @@
 # Where the revenue is
 
+Tool 12 in How I run it, and the only one about revenue rather than cost.
+
 Most AI plans are cost plans. This page is for the other side: finding revenue in work you already do, and checking that the way you charge lets you keep what AI saves. It goes with [Pay for the outcome](https://ai.valuecreator.io/read/pay-for-the-outcome), where the reasoning and three examples are written up.
 
 **Small team:** an hour with whoever owns your biggest customer relationships. **Large business:** an afternoon per business line, with the people who price the work in the room.
 
 ## In plain terms
 
-Savings from AI tend to pass to customers as competitors buy the same tools. They stay with you longer when you charge for the outcome rather than the activity. The larger prize is usually something new to sell, and in a services or information business it's often hiding in work you already do: data nobody has joined up, figures nobody explains, and records of your own work.
+Savings from AI tend to pass to customers as competitors buy the same tools. They stay with you longer when you charge for the outcome rather than the activity. The larger prize is usually something new to sell, and it's often hiding in work you already do: data nobody has joined up, figures nobody explains, and records of your own work.
 
 ## Four questions
 
