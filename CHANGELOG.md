@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.1.1 · October 2026
+
+- **Where the revenue is is tool 12.** It was a file at the root and a plugin skill; it now sits in the table as the twelfth tool, under a fourth chapter, Sell it. The site's playbook matches. The skill's description now says any business, not only services or information businesses.
+
 ## v2.1 · October 2026
 
 - **A new skill: where each model runs.** `/ai-playbook:where-each-model-runs` takes one workflow step by step and decides which model each step uses and where it runs: rented from the lab, licensed through your cloud provider, hosted on machines you control, or run on your own hardware. Data rules come before cost. Each step gets the Friday test: could you change the model by Friday, and know by Friday whether the new one is as good? The plugin now has ten skills.

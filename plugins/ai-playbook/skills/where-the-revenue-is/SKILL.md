@@ -1,6 +1,6 @@
 ---
 name: where-the-revenue-is
-description: "Find revenue, not only savings, from AI in a services or information business: four questions about data, explanation, records of work and pricing, then a check of how each offer is charged. Use when an AI plan is all cost savings, when someone asks how AI could make them money, or when AI is about to make hourly or per-unit work cheaper."
+description: "Find revenue, not only savings, from AI in any business: four questions about data, explanation, records of work and pricing, then a check of how each offer is charged. Use when an AI plan is all cost savings, when someone asks how AI could make them money, or when AI is about to make hourly or per-unit work cheaper."
 ---
 
 # Where the revenue is

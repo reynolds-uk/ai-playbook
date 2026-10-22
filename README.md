@@ -1,6 +1,6 @@
 # How I run it: an AI playbook
 
-Working tools for whoever owns AI in a business: where to point it, how to prove it works, who's on the hook, and how to keep the judgement a business runs on. By David Reynolds. The reasoning behind every tool is at [ai.valuecreator.io](https://ai.valuecreator.io).
+Working tools for whoever owns AI in a business: where to point it, how to prove it works, who's on the hook, how to keep the judgement a business runs on, and what to sell because of it. By David Reynolds. The reasoning behind every tool is at [ai.valuecreator.io](https://ai.valuecreator.io).
 
 **Use it in Claude.** Ten of the exercises are a Claude plugin: each one interviews you, one question at a time, and writes a page you can keep. In Claude Code:
 
@@ -23,7 +23,7 @@ The same material serves both readers. The leader needs to know what to ask for 
 
 I'm optimistic about AI. This is how I'd get the value out of it without losing the judgement a business runs on.
 
-## The eleven tools
+## The twelve tools
 
 In the order I use them. Most take an afternoon. The last column is the plugin skill that runs it with you, where there is one.
 
@@ -43,8 +43,10 @@ In the order I use them. Most take an afternoon. The last column is the plugin s
 | 9 | [The model, step by step](tools/09-model-routing/) | Which model each step uses, and where it runs | `per-step.md` | `where-each-model-runs` |
 | 10 | [The first ninety days](tools/10-first-ninety-days/) | Start on a Monday | `plan-small.md`, `plan-large.md` | |
 | 11 | [Who owns it](tools/11-who-owns-it/) | What the role owns and what it's measured on | `role-brief.md` | |
+| **Sell it** | | | | |
+| 12 | [Where the revenue is](where-the-revenue-is.md) | Four questions for finding revenue, not only savings, and a check of how you charge | `where-the-revenue-is.md` | `where-the-revenue-is` |
 
-Also: [the leader check](leader-check.md) (`leader-check`), [the self-check](self-check.md) (`self-check`), [where the revenue is](where-the-revenue-is.md) (`where-the-revenue-is`), and [the layer you own](architecture/the-layer-you-own.md), a reference architecture for putting AI into any business that runs on judgement and data. For a worked example of the curriculum exercise, see [A junior's week](https://ai.valuecreator.io/read/a-juniors-week).
+Also: [the leader check](leader-check.md) (`leader-check`), [the self-check](self-check.md) (`self-check`), and [the layer you own](architecture/the-layer-you-own.md), a reference architecture for putting AI into any business that runs on judgement and data. For a worked example of the curriculum exercise, see [A junior's week](https://ai.valuecreator.io/read/a-juniors-week).
 
 ## What the plugin keeps
 
