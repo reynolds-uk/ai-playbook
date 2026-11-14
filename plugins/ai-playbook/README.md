@@ -1,6 +1,6 @@
 # AI playbook
 
-Working tools for whoever owns AI in a business: where to point it, how to prove it works, who's on the hook, and how to keep the judgement a business runs on. By David Reynolds. The reasoning behind each tool is at [ai.valuecreator.io](https://ai.valuecreator.io).
+Working tools for the people who run a business and have to decide where AI goes: where to point it, how to prove it works, who's on the hook, and how to keep the judgement a business runs on. By David Reynolds. The reasoning behind each tool is at [ai.valuecreator.io](https://ai.valuecreator.io).
 
 Each skill interviews you in plain English, one question at a time, and writes a page you can keep or take into a meeting. It suggests; you decide. It never invents a figure, a customer or a name: anything you don't know is written down as "unknown, find out".
 

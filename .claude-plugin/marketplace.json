@@ -1,6 +1,6 @@
 {
   "name": "ai-playbook",
-  "description": "David Reynolds's AI playbook: working tools for whoever owns AI in a business, as a Claude plugin.",
+  "description": "David Reynolds's AI playbook: working tools for the people who run a business and have to decide where AI goes, as a Claude plugin.",
   "owner": {
     "name": "David Reynolds"
   },
@@ -9,7 +9,7 @@
       "name": "ai-playbook",
       "source": "./plugins/ai-playbook",
       "description": "Ten exercises from How I run it: the leader check, where the time goes, where the revenue is, the two columns, the test set, the register, a gate review, the curriculum grid, where each model runs and the self-check.",
-      "version": "2.1.1"
+      "version": "2.1.2"
     }
   ]
 }
