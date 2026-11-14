@@ -1,6 +1,6 @@
 # How I run it: an AI playbook
 
-Working tools for whoever owns AI in a business: where to point it, how to prove it works, who's on the hook, how to keep the judgement a business runs on, and what to sell because of it. By David Reynolds. The reasoning behind every tool is at [ai.valuecreator.io](https://ai.valuecreator.io).
+Working tools for the people who run a business and have to decide where AI goes: where to point it, how to prove it works, who's on the hook, how to keep the judgement a business runs on, and what to sell because of it. By David Reynolds. The reasoning behind every tool is at [ai.valuecreator.io](https://ai.valuecreator.io).
 
 **Use it in Claude.** Ten of the exercises are a Claude plugin: each one interviews you, one question at a time, and writes a page you can keep. In Claude Code:
 
@@ -58,7 +58,7 @@ To see what the pages look like before you install anything, [examples/](example
 
 The playbook says every AI tool needs a test set, a register page and a named person on the hook. The plugin is an AI tool, so it has all three:
 
-- **A test set:** [eighteen cases](plugins/ai-playbook/evals/) with the right outcome marked, run with `claude plugin eval` on every change. On 28 September 2026, thirteen passed every run and three passed two runs in three. The register says which, and they're the next things to fix.
+- **A test set:** [eighteen cases](plugins/ai-playbook/evals/) with the right outcome marked, run with `claude plugin eval`. The [register](plugins/ai-playbook/REGISTER.md) is the one place that says when it was last run, what passed and what didn't, including what still fails.
 - **A register:** [one page per skill](plugins/ai-playbook/REGISTER.md). Every skill is at Recommend: it drafts, you decide.
 - **A named person:** me.
 

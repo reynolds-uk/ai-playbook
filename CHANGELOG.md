@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.1.2 · November 2026
+
+- **Wording only.** The playbook is now described for the people who run a business and have to decide where AI goes, not only whoever owns it day to day. The README no longer repeats the test results: the [register](plugins/ai-playbook/REGISTER.md) is the one place they live, and it now says which two cases have not been run yet. Dates in prose use ordinals. No skill changed.
+
 ## v2.1.1 · October 2026
 
 - **Where the revenue is is tool 12.** It was a file at the root and a plugin skill; it now sits in the table as the twelfth tool, under a fourth chapter, Sell it. The site's playbook matches. The skill's description now says any business, not only services or information businesses.
@@ -15,7 +19,7 @@
 
 The playbook now runs its own playbook, and the plugin was tested end to end before release.
 
-- **A test set for the plugin.** Sixteen cases in [plugins/ai-playbook/evals](plugins/ai-playbook/evals/), each with the right outcome marked, run with `claude plugin eval` on every change. On 28 September 2026, thirteen passed every one of three runs and three passed two in three.
+- **A test set for the plugin.** Sixteen cases in [plugins/ai-playbook/evals](plugins/ai-playbook/evals/), each with the right outcome marked, run with `claude plugin eval` on every change. On 28th September 2026, thirteen passed every one of three runs and three passed two in three.
 - **A register for the plugin.** [REGISTER.md](plugins/ai-playbook/REGISTER.md) has one page per skill: grade, supervisor, test set, what it must never do. Every skill is at Recommend.
 - **Two new skills.** `/ai-playbook:test-set` starts a test set with your own real cases, and won't invent one. `/ai-playbook:two-columns` sorts claimed savings from what reached the accounts. The plugin now has nine skills.
 - **One folder, and a record of decisions.** Every skill writes into `ai-playbook/` and reads what's already there. The gate review adds to the register's history. Each decision goes into `ai-playbook/decisions.md` with the date, who decided and on what evidence.

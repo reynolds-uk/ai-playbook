@@ -1,4 +1,4 @@
-# Leader check, 28 September 2026
+# Leader check, 28th September 2026
 
 *A worked example for a fictional business, written by the plugin in a test run with a simulated user. The people and figures are invented for the test.*
 

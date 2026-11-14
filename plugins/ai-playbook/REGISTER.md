@@ -15,7 +15,7 @@ The playbook says every AI tool that acts for a business should have a register 
 | Where each model runs | Recommend | David Reynolds | Yes, 2 cases |
 | Self-check | Recommend | David Reynolds | Yes, 1 case |
 
-**Last run:** 28 September 2026, plugin v2.0.0, `claude plugin eval`, three runs per case. 13 of the 16 cases passed every run. Three passed two runs in three: the leader check's pointer to the next skill, the register's wording for assumed autonomy, and the test set's README when asked to invent cases (it refused, as it should, but once didn't write the folder). Those three are the next things to fix. Two of the cases check that nothing in the plugin fires on unrelated requests.
+**Last run:** 28th September 2026, plugin v2.0.0, `claude plugin eval`, three runs per case. 13 of the 16 cases passed every run. Three passed two runs in three: the leader check's pointer to the next skill, the register's wording for assumed autonomy, and the test set's README when asked to invent cases (it refused, as it should, but once didn't write the folder). Those three are the next things to fix. Two of the cases check that nothing in the plugin fires on unrelated requests. Two further cases, `model-runs-data-rules` and `model-runs-no-invented-prices`, were added in v2.1 and have not been run yet.
 
 **The gap, stated plainly:** eighteen cases is a small set. The playbook says start with thirty. Most skills have one case, and every case was written by me. It grows when someone reports a skill getting something wrong: that report becomes a case, and the case runs on every change from then on.
 
@@ -31,9 +31,9 @@ The playbook says every AI tool that acts for a business should have a register 
 | 4 | Grade | Recommend: it drafts, the person decides |
 | 5 | Supervisor | David Reynolds |
 | 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
-| 7 | Test set | `evals/` v1: `leader-assuming`, `leader-no-strong-ground`, `leader-first-question`, `trigger-honest-read`. Last run 28 September 2026: see above |
+| 7 | Test set | `evals/` v1: `leader-assuming`, `leader-no-strong-ground`, `leader-first-question`, `trigger-honest-read`. Last run 28th September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
-| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28 September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
+| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28th September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## Where the time goes (`where-the-time-goes`)
@@ -46,9 +46,9 @@ The playbook says every AI tool that acts for a business should have a register 
 | 4 | Grade | Recommend: it drafts, the person decides |
 | 5 | Supervisor | David Reynolds |
 | 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
-| 7 | Test set | `evals/` v1: `time-waiting`. Last run 28 September 2026: see above |
+| 7 | Test set | `evals/` v1: `time-waiting`. Last run 28th September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
-| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28 September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
+| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28th September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## Where the revenue is (`where-the-revenue-is`)
@@ -61,9 +61,9 @@ The playbook says every AI tool that acts for a business should have a register 
 | 4 | Grade | Recommend: it drafts, the person decides |
 | 5 | Supervisor | David Reynolds |
 | 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
-| 7 | Test set | `evals/` v1: `revenue-no-inventions`. Last run 28 September 2026: see above |
+| 7 | Test set | `evals/` v1: `revenue-no-inventions`. Last run 28th September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
-| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28 September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
+| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28th September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## The two columns (`two-columns`)
@@ -76,9 +76,9 @@ The playbook says every AI tool that acts for a business should have a register 
 | 4 | Grade | Recommend: it drafts, the person decides |
 | 5 | Supervisor | David Reynolds |
 | 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
-| 7 | Test set | `evals/` v1: `two-columns-claims`. Last run 28 September 2026: see above |
+| 7 | Test set | `evals/` v1: `two-columns-claims`. Last run 28th September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
-| 9 | History | New in v2.0.0, 28 September 2026. Decided by David Reynolds |
+| 9 | History | New in v2.0.0, 28th September 2026. Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## The test set (`test-set`)
@@ -91,9 +91,9 @@ The playbook says every AI tool that acts for a business should have a register 
 | 4 | Grade | Recommend: it drafts, the person decides |
 | 5 | Supervisor | David Reynolds |
 | 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
-| 7 | Test set | `evals/` v1: `test-set-no-invented-cases`. Last run 28 September 2026: see above |
+| 7 | Test set | `evals/` v1: `test-set-no-invented-cases`. Last run 28th September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
-| 9 | History | New in v2.0.0, 28 September 2026. Decided by David Reynolds |
+| 9 | History | New in v2.0.0, 28th September 2026. Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## The register (`agent-register`)
@@ -106,9 +106,9 @@ The playbook says every AI tool that acts for a business should have a register 
 | 4 | Grade | Recommend: it drafts, the person decides |
 | 5 | Supervisor | David Reynolds |
 | 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
-| 7 | Test set | `evals/` v1: `register-gaps`. Last run 28 September 2026: see above |
+| 7 | Test set | `evals/` v1: `register-gaps`. Last run 28th September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
-| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28 September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
+| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28th September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## Gate review (`gate-review`)
@@ -121,9 +121,9 @@ The playbook says every AI tool that acts for a business should have a register 
 | 4 | Grade | Recommend: it drafts, the person decides |
 | 5 | Supervisor | David Reynolds |
 | 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
-| 7 | Test set | `evals/` v1: `gate-cluster-not-yet`, `gate-skip-to-act`, `gate-criteria-after`. Last run 28 September 2026: see above |
+| 7 | Test set | `evals/` v1: `gate-cluster-not-yet`, `gate-skip-to-act`, `gate-criteria-after`. Last run 28th September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
-| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28 September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
+| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28th September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## Curriculum grid (`curriculum-grid`)
@@ -136,9 +136,9 @@ The playbook says every AI tool that acts for a business should have a register 
 | 4 | Grade | Recommend: it drafts, the person decides |
 | 5 | Supervisor | David Reynolds |
 | 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
-| 7 | Test set | `evals/` v1: `curriculum-required-work`. Last run 28 September 2026: see above |
+| 7 | Test set | `evals/` v1: `curriculum-required-work`. Last run 28th September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
-| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28 September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
+| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28th September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## Where each model runs (`where-each-model-runs`)
@@ -166,9 +166,9 @@ The playbook says every AI tool that acts for a business should have a register 
 | 4 | Grade | Recommend: it drafts, the person decides |
 | 5 | Supervisor | David Reynolds |
 | 6 | Model per step | Whichever model the person's Claude is using. Re-tested against the test set when a new model is released |
-| 7 | Test set | `evals/` v1: `self-check-strict`. Last run 28 September 2026: see above |
+| 7 | Test set | `evals/` v1: `self-check-strict`. Last run 28th September 2026: see above |
 | 8 | Cost and health | Runs in the person's own Claude session. Issues opened against the skill are the exception rate |
-| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28 September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
+| 9 | History | v1.0 to v1.5, September 2026: built and revised. v2.0.0, 28th September 2026: the rules found in testing added, and the test set written. Decided by David Reynolds |
 | 10 | Flags | Users are told what it does in the README. Nothing is stored outside the person's own folder |
 
 ## The rules for changing a skill

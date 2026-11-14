@@ -1,6 +1,6 @@
 # Examples
 
-What the plugin writes, before you install it. Each page was written by a skill in a test run on 28 September 2026, with a second model playing a realistic user for a fictional business. The people and the figures are invented for the test; the pages are as the skills wrote them.
+What the plugin writes, before you install it. Each page was written by a skill in a test run on 28th September 2026, with a second model playing a realistic user for a fictional business. The people and the figures are invented for the test; the pages are as the skills wrote them.
 
 | Page | Skill | The business |
 | --- | --- | --- |
